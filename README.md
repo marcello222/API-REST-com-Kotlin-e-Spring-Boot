@@ -13,7 +13,7 @@ A criar classes DTO para representar os dados da API;
 A criar classes Mapper para a conversão de objetos DTO;
 Como realizar validações utilizando o Bean Validation com as anotações @Valid, @NotEmpty e @Size.
 
-3. A trabalhar com requisições PUT na API com a anotação @PutMapping;
+3- A trabalhar com requisições PUT na API com a anotação @PutMapping;
 A trabalhar com requisições DELETE na API com a anotação @DeleteMapping;
 A seguir boas práticas do REST nos retornos da API, com a utilização correta dos códigos HTTP.
 
