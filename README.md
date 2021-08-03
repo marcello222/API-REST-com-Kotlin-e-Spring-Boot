@@ -1,6 +1,6 @@
 # API-REST-com-Kotlin-e-Spring-Boot
 
-Aprendemos nesse projeto:
+Aprendemos nesse projeto: Parte 1
 
 1- Criação de classes de domínio que representam os recursos da API;
 A trabalhar com requisições GET na API utilizando a anotação @GetMapping;
@@ -21,3 +21,5 @@ A seguir boas práticas do REST nos retornos da API, com a utilização correta 
 A criar uma classe Controller Advice para tratamento de erros na API, utilizando as anotações @RestControllerAdvice e @ExceptionHandler;
 A realizar o tratamento de erros 500 que ocorrerem na API;
 A realizar o tratamento de erros 400 que ocorrerem na API.
+
+Aprendemos nesse projeto: Parte 2
