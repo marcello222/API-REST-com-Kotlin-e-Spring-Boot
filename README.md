@@ -1,6 +1,6 @@
 # API-REST-com-Kotlin-e-Spring-Boot
 
-Aprendemos nesse projeto: Parte 1
+Aprendemos nesse projeto: Parte 1 - DESENVOLVIMENTO WEB
 
 1- Criação de classes de domínio que representam os recursos da API;
 A trabalhar com requisições GET na API utilizando a anotação @GetMapping;
@@ -22,7 +22,7 @@ A criar uma classe Controller Advice para tratamento de erros na API, utilizando
 A realizar o tratamento de erros 500 que ocorrerem na API;
 A realizar o tratamento de erros 400 que ocorrerem na API.
 
-Aprendemos nesse projeto: Parte 2
+Aprendemos nesse projeto: Parte 2  - CAMADA DE PERSISTENCIA 
 
 1- Adicionar o Spring Data JPA na API, incluindo suas dependências no arquivo pom.xml;
 Configurar o Spring Data JPA via propriedades no arquivo application.yml;
