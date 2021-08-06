@@ -1,4 +1,7 @@
 package br.com.marcello.forum.repository
 
-interface CursoRepository {
+import br.com.marcello.forum.model.Curso
+import org.springframework.data.jpa.repository.JpaRepository
+
+interface CursoRepository: JpaRepository<Curso, Long> {
 }

@@ -1,27 +1,15 @@
 package br.com.marcello.forum.service
 
 import br.com.marcello.forum.model.Curso
+import br.com.marcello.forum.repository.CursoRepository
 import org.springframework.stereotype.Service
 import java.util.*
 
 
 @Service
-class CursoService(var cursos: List<Curso>) {
-
-    init {
-        val curso = Curso(
-            id = 1,
-            nome = "Kotlin",
-            categoria = "Programacao"
-        )
-        cursos = Arrays.asList(curso)
-    }
+class CursoService(private val repository: CursoRepository) {
 
     fun buscarPorId(id: Long): Curso {
-        return cursos.stream().filter { c ->
-            c.id == id
-        }.findFirst().get()
+       return repository.getOne(id)
     }
-
-
 }
